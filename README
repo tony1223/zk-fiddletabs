@@ -1,0 +1,39 @@
+
+A comstom component that support a addable attribute and a onAdd event,
+to let user handle it directly.
+
+
+
+Screenshot
+http://screencast.com/t/ld0XK6cGKN
+
+Video for demo 
+http://www.youtube.com/watch?v=uygUAQBQN4M
+
+sample code
+<zk>
+
+	<vlayout>
+		<tabbox>
+			<fiddletabs>
+				<tab label="Test" />
+				<tab label="Test" />
+			</fiddletabs>
+			<tabpanels>
+				<tabpanel>1</tabpanel>
+				<tabpanel>2</tabpanel>
+			</tabpanels>
+		</tabbox>
+
+		<tabbox>
+			<fiddletabs addable="true" onAdd='alert("test")'>
+				<tab label="Test" />
+				<tab label="Test" />
+			</fiddletabs>
+			<tabpanels>
+				<tabpanel>1</tabpanel>
+				<tabpanel>2</tabpanel>
+			</tabpanels>
+		</tabbox>
+	</vlayout>
+</zk>
