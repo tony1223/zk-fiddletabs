@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language-addon>
+	<addon-name>fiddletabs</addon-name> <!-- required -->
+
+ 	<version>
+		<version-class>org.zkoss.fiddle.fiddletabs.TabsVersion</version-class>
+		<version-uid>0.8.0</version-uid>
+		<zk-version>5.0.0</zk-version><!-- or later -->
+	</version>
+
+	<language-name>xul/html</language-name>
+	<component>
+		<component-name>fiddletabs</component-name> <!-- required -->
+		<component-class>org.zkoss.fiddle.fiddletabs.Fiddletabs</component-class> <!-- required -->
+		<widget-class>zul.fiddle.fiddletabs.Fiddletabs</widget-class> <!-- required -->
+		<mold>
+			<mold-name>default</mold-name>
+			<mold-uri>mold/fiddletabs.js</mold-uri>
+			<css-uri>css/fiddletabs.css.dsp</css-uri>
+		</mold>
+	</component>
+</language-addon>

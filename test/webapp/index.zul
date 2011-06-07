@@ -1,0 +1,27 @@
+<zk>
+
+<vlayout>
+	<tabbox>
+		<fiddletabs >
+			<tab label="Test" />
+			<tab label="Test" />
+		</fiddletabs>
+		<tabpanels>
+			<tabpanel>1</tabpanel>
+			<tabpanel>2</tabpanel>
+		</tabpanels>
+	</tabbox>
+
+	<tabbox>
+		<fiddletabs addable="true" onAdd='alert("test")'>
+			<tab label="Test" />
+			<tab label="Test" />
+		</fiddletabs>
+		<tabpanels>
+			<tabpanel>1</tabpanel>
+			<tabpanel>2</tabpanel>
+		</tabpanels>
+	</tabbox>
+	
+</vlayout>	
+</zk>
